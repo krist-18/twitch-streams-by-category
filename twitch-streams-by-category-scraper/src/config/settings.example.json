@@ -1,0 +1,13 @@
+{
+  "input_file": "data/inputs.sample.json",
+  "output_format": "json",
+  "output_dir": "data",
+  "max_streams_per_category": 100,
+  "http": {
+    "timeout_seconds": 15,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (compatible; TwitchCategoryScraper/1.0; +https://bitbash.dev)",
+      "Accept-Language": "en-US,en;q=0.9"
+    }
+  }
+}
